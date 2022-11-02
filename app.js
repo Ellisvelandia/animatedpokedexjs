@@ -1,4 +1,4 @@
-const pokemonCount = 905;
+const pokemonCount = 649;
 let pokedex = {};
 
 window.onload = async function () {
@@ -59,7 +59,6 @@ function updatePokemon() {
     type.classList.add(types[i]["type"]["name"]);
     typesDiv.append(type);
   }
-
   document.getElementById("pokemon-description").innerText =
     pokedex[this.id]["desc"];
 }

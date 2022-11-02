@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
+
 * {
   padding: 0;
   margin: 0;
@@ -13,6 +15,7 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   filter: drop-shadow(0 0.2rem 0.25rem rgba(247, 5, 5, 0.973));
+  font-family: "Press Start 2P", cursive;
 }
 
 .title img {
@@ -28,7 +31,6 @@ body {
   border: 1px solid lightgray;
   margin: 0 auto;
   margin-top: 60px;
-  border: 2px solid red;
   border-radius: 20px;
   box-shadow: 0 0.2rem 15.25rem rgba(0, 0, 0, 0.2);
 }
@@ -40,7 +42,6 @@ body {
   border-radius: 20px;
   text-align: center;
   color: #fff;
-  font-weight: 900;
 }
 
 #pokemon-list {
@@ -56,7 +57,6 @@ body {
   box-shadow: 0 0.2rem 15.25rem rgba(0, 0, 0, 0.2);
   color: #fff;
   border-radius: 10px;
-  font-weight: 900;
   font-size: 1.1rem;
   margin: 5px;
   padding: 5px;
@@ -67,7 +67,6 @@ body {
   width: 160px;
   height: 160px;
   font-size: 1.2rem;
-  font-weight: 900;
   border: 1px solid rgba(0, 0, 0, 0.26);
   border-radius: 10px;
   margin-top: 20px;
